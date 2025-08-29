@@ -83,7 +83,7 @@
 
 
 // Adding fruit to the array
-// fruits.push("Orange");
+// console.log(fruits.push("cherry"));
 // console.log("Updated fruits array:", fruits);
 
 
@@ -95,26 +95,30 @@
 
 
 // Adding a new fruit at the beginning of the array
-// fruits.unshift("Pineapple");
+
+// fruits.unshift("pineapple");
 // console.log("After adding a new fruit at the beginning:", fruits);
 
 
 
 // Removing the first fruit from the array
+
 // fruits.shift();
 // console.log("After removing the first fruit:", fruits);
 
 
 
 // insert a new element at a specific index in the array
-// fruits.splice(2,0,"Grapes");
-// console.log("After adding Grapes at index 2:", fruits);
+
+// fruits.splice(4,0,"apricot");
+// console.log("After adding Apricot at index 4:", fruits);
 
 
 
 // created new array using slice method without changing the original array
-// var newarry = fruits.slice(1, 3);
-// console.log("New array using slice method:", newarry);
+
+// var newArray = fruits.slice(1, 3);
+// console.log("New array using slice method:", newArray);
 // console.log("Original array after slice:", fruits);
 
 
@@ -123,10 +127,10 @@
 
 
 
-// inverse Table of 5
+// Inverse Table of 5 
 
 
-// console.log("Inverse Table of 5:");
+// console.log("Inverse Table of 5 : ");
 // for (var i=5; i<=5; i++) {
 //     for (var j=10; j>=1; j--){
 //         console.log(i + " * " + j + " = " + (i * j));
@@ -155,4 +159,29 @@
 
 
 
+
+
+// ------------- Extra Code For Practice----------------
+
+
+// Prompt user for number
+// var num = parseInt(prompt("Enter a number for table:"));
+
+// // Prompt user for type
+// var type = prompt("Type 'normal' for 1 to 10 or 'inverse' for 10 to 1:");
+
+// // Decide loop based on type
+// console.log(`Table of ${num} (${type}):`);
+
+// if(type.toLowerCase() === "normal"){
+//     for(var i = 1; i <= 10; i++){
+//         console.log(num + " * " + i + " = " + (num * i));
+//     }
+// } else if(type.toLowerCase() === "inverse"){
+//     for(var i = 10; i >= 1; i--){
+//         console.log(num + " * " + i + " = " + (num * i));
+//     }
+// } else {
+//     console.log("Invalid type! Type 'normal' or 'inverse'.");
+// }
 
